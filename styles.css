@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html{
+    --bg-color: #EDF2FF;
+    --text-color: #00082F;
+  }
+  body.dark {
+    background-color: #00082F;
+    --text-color: #ffff;
+  }
+  a{
+    text-decoration:none ;
+  }
+  bady{
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-size: "roboto",sans-serif;
+  }
+  .jhony{
+    color: #ffff;
+  }
+  
+  .conteiner{
+    
+    text-align: center;
+    width: 300px;
+    margin: 60px auto;
+    
+  }
+  
+  
+  img{
+    
+  
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 3.7px;
+    border: #4263EB solid 4px;
+  
+  }
+  .nome{
+    color: #ffff;
+    font-family: "roboto mono" monospace;
+    opacity: 0.8;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  ul{
+    list-style: none;
+    margin: 48px 0;
+  }
+  h1{
+    font-size: 32px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
+  
+  ul li a {
+    height: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#4263EB;
+    color: white;font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    border-radius: 6px;
+  
+  }
+  ul li a:hover {
+    background-color: #364fc7;
+  
+  
+  }
+  footer{
+    font-weight: 500;
+    font-size: 12px;
+    opacity: 0.6;
+    transition: opacity 400ms;
+  }
+  footer:hover {
+    opacity: 1;
+  }
+    footer a{
+     color: var(--text-color); 
+    }
